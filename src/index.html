@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Computer Interaction</title>
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
+
+    <!-- Tailwind CSS & JS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-gray-900 fixed w-full">
+        <div class="max-w-screen-full flex flex-wrap justify-between items-center mx-2 py-2 pl-2">
+            <img src="./assets/img/bunny.png" alt="Snowball" class="w-10">
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto mr-6" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                      <a href="./index.html" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:p-0 md:hover:text-blue-500 md:hover:bg-transparent">Home</a>
+                    </li>
+                    <li>
+                      <a href="./about.html" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:p-0 md:hover:text-blue-500 md:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                      <a href="./skills.html" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:p-0 md:hover:text-blue-500 md:hover:bg-transparent">Skills</a>
+                    </li>
+                    <li>
+                      <a href="./portfolio.html" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:p-0 md:hover:text-blue-500 md:hover:bg-transparent">Portfolio</a>
+                    </li>
+                    <li>
+                      <a href="./contact.html" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:p-0 md:hover:text-blue-500 md:hover:bg-transparent">Contact</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="flex flex-col h-screen ml-10 items-center md:justify-center md:ml-0 md:flex-row">
+        <div class="text-white mr-20 mt-36 mb-10 md:mt-0 md:mb-0">
+            <h6 class="text-yellow-300 text-xs md:text-xs">Hello World, I'm</h6>
+            <h3 class="text-3xl">Darren Gunawan</h3>
+            <h4 class="text-base">2702342256 - L1BC</h4>
+            <p class="text-gray-300 text-base mt-2">
+                Darren is typing...
+            </p>
+        </div>
+        <div class="md:justify-center">
+            <img src="./assets/img/avatar.png" alt="Avatar" class="w-52 rounded-full" style="box-shadow: 0px 0px 16px gold; border: 1px solid white;">
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+</body>
+
+</html>
